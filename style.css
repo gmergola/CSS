@@ -6,7 +6,6 @@ body {
 }
 
 .one {
-  position: relative;
   width: 400px;
   height: 400px;
   background-color: red;
@@ -23,17 +22,16 @@ body {
 
 .three {
   position: relative;
-  left: -100px;
-  top: -100px;
+  top: -200px;
   width: 200px;
   height: 200px;
   background-color: green;
 }
 
 .four {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
   width: 100px;
   height: 100px;
   background-color: blue;
